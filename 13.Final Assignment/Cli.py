@@ -1,0 +1,1 @@
+# design a CLI app with basic CRUD opertaions and database integration
