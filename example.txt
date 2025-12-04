@@ -1,0 +1,10 @@
+# This is a sample text file.
+# You can read this file using Python's open() function.
+
+Hello, welcome to the example.txt file!
+This file contains several lines of text.
+Feel free to edit, read, or process this file as you learn about file handling in Python.
+
+Line 1: This is a demonstration.
+Line 2: Python makes file handling easy.
+Line 3: Try reading and writing to this file using Python code!
