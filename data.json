@@ -1,13 +1,12 @@
-{
-    "name": "Alice",
-    "age": 30,
-    "is_student": false,
-    "courses": [
-        "Math",
-        "Science"
-    ],
-    "address": {
-        "city": "New York",
-        "zip": "10001"
+[
+    {
+        "id": "1",
+        "name": "a",
+        "age": "1"
+    },
+    {
+        "id": "2",
+        "name": "cb",
+        "age": "2"
     }
-}
+]

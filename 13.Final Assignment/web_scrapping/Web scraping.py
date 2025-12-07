@@ -1,1 +1,0 @@
-# Web scraping + Database + Fie OPerations: Scrape data, store it in SQL & export to CSV/JSON
