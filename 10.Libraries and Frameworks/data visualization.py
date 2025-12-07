@@ -1,9 +1,14 @@
 # Data Visualization in Python: Detailed Examples using matplotlib, seaborn, and plotly
-
-# 1. Matplotlib - The foundation of Python data visualization
+import seaborn as sns
+import pandas as pd
 
 import matplotlib.pyplot as plt
 import numpy as np
+
+import plotly.express as px
+
+# 1. Matplotlib - The foundation of Python data visualization
+
 
 # Generate sample data
 x = np.linspace(0, 10, 100)
@@ -20,9 +25,6 @@ plt.tight_layout()
 plt.show()
 
 # 2. Seaborn - Statistical data visualization built on matplotlib
-
-import seaborn as sns
-import pandas as pd
 
 # Example DataFrame
 df = pd.DataFrame({
@@ -47,8 +49,6 @@ plt.suptitle('Seaborn Pairplot Example (Iris Dataset)', y=1.02)
 plt.show()
 
 # 3. Plotly - Interactive visualizations
-
-import plotly.express as px
 
 # Scatter plot with Plotly
 fig = px.scatter(iris, x='sepal_width', y='sepal_length',
